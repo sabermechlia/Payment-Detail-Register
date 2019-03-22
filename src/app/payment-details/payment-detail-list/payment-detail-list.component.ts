@@ -26,6 +26,6 @@ export class PaymentDetailListComponent implements OnInit {
           this.service.refrechList();
         },
           err =>  console.log(err) );
-    }
+    } 
   }
 }
